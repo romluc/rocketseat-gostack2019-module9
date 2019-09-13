@@ -11,7 +11,7 @@ export const Wrapper = styled.div`
 
 export const Content = styled.div`
   width: 100%;
-  max-width: 315px;
+  max-width: 360px;
   text-align: center;
 
   form {
@@ -23,13 +23,15 @@ export const Content = styled.div`
       background: rgba(0, 0, 0, 0.15);
       border: 0;
       border-radius: 4px;
-      height: 44px;
+      height: 50px;
+      font-size: 20px;
       padding: 0 15px;
       color: #fff;
       margin: 0 0 10px;
 
       &::placeholder {
         color: rgba(255, 255, 255, 0.6);
+        font-size: 20px;
       }
     }
   }
@@ -43,12 +45,12 @@ export const Content = styled.div`
 
   button {
     margin: 5px 0 0;
-    height: 44px;
+    height: 50px;
     background: orange;
     font-weight: bold;
     border: 0;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 20px;
     transition: background 0.2s;
 
     &:hover {
@@ -59,7 +61,7 @@ export const Content = styled.div`
   a {
     color: #fff;
     margin-top: 15px;
-    font-size: 16px;
+    font-size: 20px;
     opacity: 0.8;
 
     &:hover {
